@@ -2,7 +2,7 @@
 A bundle of Unreal Project and a Unity Project pre-configured to facilitate inter-communication between both engines.
 
 # Working
-We can create server/clients at Unity/Unreal to cross-communicate between them. Technically, there isn't anything special that is happening in these projects. Networking is being used on both ends to communicate but I have bundled them together because of necessity. 
+We can create server/clients at Unity for easy communication setup. Technically, there isn't anything special that is happening in these projects but the ease-to-use is the priority.
 
 ## 1. TCP Server:
 
@@ -18,9 +18,6 @@ You can specify the IP/Port over which the server would be
 
 ### Sending messages:
 !["1.2. Sending Messages"](Demo/1_SendingMessages.png)
-
-### Unreal Recieving:
-!["1.3. Unreal Recieving"](Demo/1_UnrealRecieving.png)
 
 ## 2. UDP Server:
 Works pretty much the same way
@@ -115,9 +112,3 @@ function Start-UDPServer {
 
 ```
 
-
-# To-Do
-- Since a lot of times networking is required sepreately too, seperate Unreal/Unity sides of projects into different repos.
-- Better document the repos.
-- Comment the code.
-- Arrange the inspector variables and make it look prettier.
