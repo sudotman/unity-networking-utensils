@@ -1,5 +1,5 @@
-# Unreal-Unity Communication Package
-A bundle of Unreal Project and a Unity Project pre-configured to facilitate inter-communication between both engines.
+# Unity Networking Utensils
+A bunch of handy Unity's networking tools pre-configured to facilitate inter-communication between both engines.
 
 # Working
 We can create server/clients at Unity for easy communication setup. Technically, there isn't anything special that is happening in these projects but the ease-to-use is the priority.
